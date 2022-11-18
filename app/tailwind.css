@@ -971,6 +971,10 @@ video {
   margin-bottom: 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
 @media (min-width: 1024px) {
   .lg\:prose-xl {
     font-size: 1.25rem;
