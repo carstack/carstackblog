@@ -23,11 +23,16 @@ export const meta: MetaFunction = () => ({
 export default function App() {
   return (
     <html lang="en">
-      <head>
+      <head >
         <Meta />
         <Links />
       </head>
       <body>
+        <nav className="bg-black p-1 flex flex-col justify-center items-center">
+          <span className="p-8 font-mono font-semibold text-white text-6xl antialiased">
+          CARSTACK
+          </span>
+        </nav>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
